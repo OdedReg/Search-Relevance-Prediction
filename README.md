@@ -105,13 +105,13 @@ The architecture implemented in this project is based on the article "Sentence-B
 | Word-Level LSTM  | 0.387      | 0.524     | 0.304     | 0.426    | 4.143                   | 8      |
 | MPNet LM         | 0.478      | 0.476     | 0.389     | 0.387    | 112.486                 | 18     |
 <br>
-MPNet LM achieved the best test results:
-
+MPNet LM achieved the best test results:<br>
+<br>
 <img src="https://github.com/OdedReg/Search-Relevance-Prediction/assets/125364181/f9c7ef26-05c2-4206-a0c6-8163f05c74a6" width="900">
 
-The results indicate that the Language Model (LM) based on "all-mpnet-base-v2" achieved the best performance with the lowest test loss and MAE, albeit with significantly higher computational cost compared to the other models.
-
 ## Conclusion
+
+The results indicate that the Language Model (LM) based on "all-mpnet-base-v2" achieved the best performance with the lowest test loss and MAE, albeit with significantly higher computational cost compared to the other models.
 
 The Language Model approach using "all-mpnet-base-v2" demonstrated superior performance compared to other methods, showcasing its effectiveness in predicting the relevance of search results on Home Depot's website. The implementation successfully addressed the challenges posed by the task, contributing to an improved shopping experience for Home Depot customers.
 
