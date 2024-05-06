@@ -1,8 +1,8 @@
 <h1 align="center">Search Relevance Prediction</h1>
 
 <h2 align="center">
-An NLP project utilizing Language Models, <br>
-Char-Level and Word-Level LSTM for improved relevance prediction
+An NLP project utilizing Language Models, Char-Level and Word-Level LSTM <br>
+for improved relevance prediction
 </h2>
 
 <p align="center">
