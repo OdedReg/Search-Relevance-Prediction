@@ -1,7 +1,7 @@
 <h1 align="center">Home Depot Product Search Relevance Prediction</h1>
 
 <p align="center">
-  <img src="https://github.com/OdedReg/Search-Relevance-Prediction/blob/main/HomeDepot.jpg" width="800">
+  <img src="https://github.com/OdedReg/Search-Relevance-Prediction/blob/main/Images/HomeDepot.jpg" width="800">
 </p>
 
 
@@ -42,19 +42,19 @@ The dataset provided by Home Depot includes:
 The architecture implemented in this project is based on the article "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks."<br>It's a modification of the pretrained BERT network that uses siamese network and one-shot learning structures to derive semantically meaningful sentence embeddings that can be compared using a distance metric.
 
 <p align="left">
-  <img src="https://github.com/OdedReg/Search-Relevance-Prediction/blob/main/SiameseNetwork.png" width="300">
+  <img src="https://github.com/OdedReg/Search-Relevance-Prediction/blob/main/Images/SiameseNetwork.png" width="300">
 </p>
 
 ## Key Implementations:
 
 1. Computing the mean of all output vectors from the model.
   <p align="left">
-    <img src="https://github.com/OdedReg/Search-Relevance-Prediction/blob/main/PoolingStrategy.png" width="250">
+    <img src="https://github.com/OdedReg/Search-Relevance-Prediction/blob/main/Images/PoolingStrategy.png" width="250">
   </p>
 
 2. Concatenating the sentence embeddings with the element-wise difference and multiplying with a trainable weight followed by softmax.
   <p align="left">
-    <img src="https://github.com/OdedReg/Search-Relevance-Prediction/blob/main/Concatenation.png" width="250">
+    <img src="https://github.com/OdedReg/Search-Relevance-Prediction/blob/main/Images/Concatenation.png" width="250">
   </p>
 
 3. Using a pretrained and finetuned model for sentence embedding, specifically "all-mpnet-base-v2" from sentence-transformers, which achieved the best average performance among the tested datasets.
