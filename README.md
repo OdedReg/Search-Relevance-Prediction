@@ -52,7 +52,7 @@ The architecture implemented in this project is based on the article "Sentence-B
     <img src="https://github.com/OdedReg/Search-Relevance-Prediction/blob/main/Images/PoolingStrategy.png" width="250">
   </p>
 
-2. Concatenating the sentence embeddings with the element-wise difference and multiplying with a trainable weight followed by softmax.
+2. Concatenating the sentence embeddings with the element-wise difference and multiplying with a trainable weight.
   <p align="left">
     <img src="https://github.com/OdedReg/Search-Relevance-Prediction/blob/main/Images/Concatenation.png" width="250">
   </p>
