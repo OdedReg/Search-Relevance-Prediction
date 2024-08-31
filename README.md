@@ -1,7 +1,7 @@
 <h1 align="center">Home Depot Product Search Relevance Prediction</h1>
 
 <p align="center">
-  <img src="https://github.com/OdedReg/Search-Relevance-Prediction/blob/main/Images/HomeDepot.jpg" width="800">
+  <img src="https://github.com/OdedReg/Search-Relevance-Prediction/blob/main/Images/HomeDepot.jpg" width="600">
 </p>
 
 
